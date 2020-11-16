@@ -5,9 +5,6 @@ import {fetchData} from "./modules/animeMiner.js"
   videoBox=document.querySelector('.animeVideobox'),
   videoBoxTemplate = document.querySelector('#videobox-template').content,
 
-  videoBoxT = document.querySelector('#videobox-template'),
-  animeVideo=videoBoxT.querySelector("video"),
-
   closeButton= videoBox.querySelector('.close-button');
 
 
@@ -27,8 +24,6 @@ import {fetchData} from "./modules/animeMiner.js"
 
   function showVideoBox(data){
     videoBox.classList.add("show-animeVideobox");
-    
-   // fetchData('./includes/index.php?id=${data.target.id}').then(data => handleDataSet(data)).catch(err => console.log(err));
     if (!data.target.id) {return}
     fetchData('./includes/index.php?id='+data.target.id).then(data => handleDataSet(data)).catch(err => console.log(err));
 } 
@@ -37,8 +32,7 @@ import {fetchData} from "./modules/animeMiner.js"
 
     function hideVideoBox(){
      videoBox.classList.remove("show-animeVideobox");
-     animeVideo.pause();
-     animeVideo.currentTime=0;
+
     }
 
     // function retrieveProjectInfo(){
