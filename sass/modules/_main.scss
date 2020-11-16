@@ -1,0 +1,60 @@
+body { 
+    
+    font-family: $main-font; 
+    font-size:$main-font-size; 
+    background-image: url("../images/bck.jpg");
+    background-color:$background-color;
+ }
+
+ main{
+     margin: 0px auto;
+     color: $main_font_color;
+     max-width: 800px;
+     min-width: 550px;
+     border-style: double;
+     border-width: 15px;
+     border-color: $border-color;
+     background-image: url("../images/sakura.gif");
+     opacity: 96%;
+     background-color: $main-background-color;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+.anime-area{
+    margin: 15px auto;
+}
+ h1{
+     text-align: center;
+     text-shadow: 2px 2px;
+ }
+.anime-section{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.anime{
+    margin: 0px auto;
+    
+}
+
+img{
+    max-width: 90%;
+    height: auto;
+    display: block;  
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+
+img:hover{
+    -ms-transform:scale(1.1);
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
+    -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
