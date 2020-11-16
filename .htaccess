@@ -1,0 +1,6 @@
+ErrorDocument 404 http://localhost/M_Z_Favourite_Things/page_not_found_404.html
+ErrorDocument 401 http://localhost/M_Z_Favourite_Things/unauthorized_401.html
+ErrorDocument 400 http://localhost/M_Z_Favourite_Things/bad_request_400.html
+ErrorDocument 403 http://localhost/M_Z_Favourite_Things/forbidden_403.html
+ErrorDocument 500 http://localhost/M_Z_Favourite_Things/internal_server_error_500.html
+ErrorDocument 503 http://localhost/M_Z_Favourite_Things/service_unavailable_503.html
