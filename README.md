@@ -1,7 +1,7 @@
 # Favorite Things-Meng Zhu
 ![header image](/images/anime.jpg " Favorite Things")
 This app includes 3 of my favourite things, which are all animes. If you feel interested, please don't hesitate to visit. `Click images in app  will help you gain more information about animes.`<br />
-[Project Roadmap](https://docs.google.com/document/d/19yKH5ZlCC6yool7dJxyqPO2xrMJR74GXJphSaDuTTAs/edit) is here.
+[Project Roadmap](https://docs.google.com/document/d/19yKH5ZlCC6yool7dJxyqPO2xrMJR74GXJphSaDuTTAs/edit?usp=sharing) is here.
 
 ## Description
 1. Pick 3 things you love and create an app that showcases those things. 

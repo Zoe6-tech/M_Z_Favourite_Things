@@ -3,6 +3,7 @@
         'host' => 'localhost',
         'dbname' => 'fav_things',//database name
         'charset' => 'utf8'//language
+
     );
 
     //set connection to database
